@@ -6,43 +6,40 @@ body{
 }
 
 
+.flex{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 
 .container{
-    display: block;
+    display: flex;
     width: 30rem;
     height: 20rem;
     background-color: white;
-    border-radius: 2rem;
-    margin: auto;
-    margin-top: 5rem;
+    flex-direction: column;
+    border-radius: 1.5rem;        
     align-items: center;
 }
 .container h1{
-    position: relative;
-    top:1rem;
+    position: relative;  
     color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 .relogio{
     text-align: center;
     font-size: 3rem;
 }
-.botao{
-    width: 30rem;
-    height: 2.5rem;
-    position: relative;
-    top: 30px;
-    left: 135px;
-    display: block;
-    justify-content: center;
+.botao{         
 }
 .botao button{
     margin: 0 .5rem;
     padding: .5rem;
-    border-radius: .5rem;
-    
+    border-radius: .5rem;    
     cursor: pointer;
 }
